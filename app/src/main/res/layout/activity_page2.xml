@@ -4,21 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
+    android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="20dp"
-    android:gravity="center"
-    tools:context=".HomeActivity">
-<Button
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/btnExplisit"
-    android:text="Pindah Activity"/>
+    tools:context=".PageActivity2">
 
-    <Button
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnImplisit"
-        android:text="Dial Phone"/>
+        android:layout_height="match_parent"
+        android:id="@+id/textDisplay"
+        android:gravity="center"
+        android:text="Ini Halaman Kedua"/>
 
 </LinearLayout>
