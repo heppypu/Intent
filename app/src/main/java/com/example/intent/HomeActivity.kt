@@ -38,7 +38,9 @@ class HomeActivity : AppCompatActivity(),View.OnClickListener{
                 startActivity(intentExplisit)
             }
             R.id.btnImplisit ->{
-
+                val intentImplisit = Intent(this@HomeActivity, DialActivity::class.java).also{
+                    startActivity(it)
+                }
             }
         }
     }
